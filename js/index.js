@@ -182,7 +182,7 @@ var settings = {
       }
       context.closePath();
       // create the fill
-      var colors = new Array('#eab308', '#16a34a', '#991b1b', '#ea580c', '#c026d3', '#4f46e5'); // colours of the hearts
+      var colors = new Array('#eab308', '#e2e8f0', '#991b1b', '#ea580c', '#c026d3', '#60a5fa'); // colours of the hearts
 
       context.fillStyle = colors[Math.floor(Math.random() * colors.length)];
       context.fill();
